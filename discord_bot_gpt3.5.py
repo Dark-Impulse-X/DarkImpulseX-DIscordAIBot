@@ -22,10 +22,7 @@ for commits on my project to improve this and everthing is working fine till now
 
 **[Sample Keys of Authors]**
 
-APP ID : 1171478806305980446                                                              **(Please avoid using this for your own)**
-PUBLIC KEY : 49bec5012084398faf2d75ad2dccb4a8a5b6b6f842ba8cdf60d138f112c5e830
-TOKEN : MTE3MTQ3ODgwNjMwNTk4MDQ0Ng.GBorml.2-RDT9h1jzusvpAbtIAAIPa1xnEuTf0SFEv3nE
-OPENAI API KEY : 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
+
 
 
 This example requires the 'message_content' intent.'''
@@ -35,8 +32,8 @@ import os        #to get keys
 import openai    #to integrate with gpt--3.5 model: text-davinci-003
 
 # openai.api_key = os.getenv("OPENAI_API_KEY")
-token = 'MTE3MTQ3ODgwNjMwNTk4MDQ0Ng.GBorml.2-RDT9h1jzusvpAbtIAAIPa1xnEuTf0SFEv3nE'    #my-personal-token
-openai.api_key = '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'                #my-personal-openai-api-key
+token = ''    #my-personal-token
+openai.api_key = ''                #my-personal-openai-api-key
 
 
 
