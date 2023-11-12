@@ -11,6 +11,7 @@
   <img alt="GitHub contributors" src="https://img.shields.io/github/contributors-anon/Dark-Impulse-X/DarkImpulseX-DIscordAIBot?style=for-the-badge">
   
   <a href="https://github.com/Dark-Impulse-X/DarkImpulseX-DiscordAIBot"><img src="https://img.shields.io/badge/Language-python-green.svg?style=for-the-badge" alt="Language"></a>
+  <a href="https://www.codefactor.io/repository/github/dark-impulse-x/darkimpulsex-discordaibot/overview/master"><img src="https://www.codefactor.io/repository/github/dark-impulse-x/darkimpulsex-discordaibot/badge/master?style=for-the-badge" alt="CodeFactor" /></a>
   
 </div>
 </br>
