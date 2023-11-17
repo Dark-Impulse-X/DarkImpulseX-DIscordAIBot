@@ -63,6 +63,25 @@ prompt = [
 We have developed our bot such that it takes into consideration those chats wih **/dix** in it.
 
 
+### Installation
+All you need is python installed in your computer.
+- Clone the repo
+  
+`
+git clone https://github.com/Dark-Impulse-X/DarkImpulseX-DIscordAIBot.git
+`
+
+- Install the libraries
+
+`
+pip3 install requirements.txt
+`
+
+- Run the program
+
+`
+python3 discord_bot_gpt3.5.py
+`
 
 
 ## Contributions
