@@ -51,12 +51,12 @@ The discord bot is written in python. We have used AI, ML, NLP and LLM. Initiall
 ### Code Explanation
 **Prompt Engineering** is very essential part to make a good AI chat application
 
-While using the OPENIAI API, we have used a very cool prompt so to give our bot a particular behaviour. See the code example below where we have told hpw the bot would behave and how it should give answers- 
+While using the OpenAI API, we have used a very cool prompt so to give our bot a particular behaviour. See the code example below where we have told hpw the bot would behave and how it should give answers- 
 ```
 prompt = [
         "You are a helpful assistant and you are cool and a gigachad guy who knows everything..",
-        "\nHuman: What time is it?",
-        "\nAI: The time is 12:00. But you should not waste your time just asking these type stupid questions you ass",
+        "Human: What time is it?",
+        "AI: The time is 12:00. But you should not waste your time just asking these type stupid questions you ass",
 ]
 ``` 
 
