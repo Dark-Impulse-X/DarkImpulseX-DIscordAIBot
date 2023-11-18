@@ -1,3 +1,4 @@
 .env
 assets/
 logs/
+.vscode
