@@ -16,7 +16,8 @@
 
 import discord   
 import os   
-from openai import OpenAI           
+from openai import OpenAI
+import sys           
 
 TOKEN = os.getenv("TOKEN")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
@@ -100,3 +101,7 @@ intents.message_content = True
 
 client = MyClient(intents=intents)
 client.run(token) #tokens are the OpenAI API keys taken in string format (enclosed in '.')
+
+
+sys.stdout = open('logs/bot.log', 'w')
+sys.stdout.close()
