@@ -53,7 +53,7 @@ The discord bot is written in python. We have used AI, ML, NLP and LLM. Initiall
 
 While using the OpenAI API, we have used a very cool prompt so to give our bot a particular behaviour. See the code example below where we have told hpw the bot would behave and how it should give answers- 
 
-<img src="blob:https://carbon.now.sh/394e25bb-853c-431d-93a8-a5f0c0d88903">
+<img src="blob:https://carbon.now.sh/394e25bb-853c-431d-93a8-a5f0c0d88903" width="2048" height="592">
 
 We have developed our bot such that it takes into consideration those chats wih **/dix** in it.
 
