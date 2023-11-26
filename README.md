@@ -104,11 +104,11 @@ python3 Python/main.py
 
 * Collect all the tokens and keys as said above.
 
-* Edit the file OPENAI_API_KEY and replace your key in folder named **.env**.
+* Edit the file **OPENAI_API_KEY** and replace your key in folder named **.env**.
 
-* Run the file named 1. LIBRARIES-INSTALL.bat .
+* Run the file named **1. LIBRARIES-INSTALL.bat** .
 
-* Run the file named 3. DIX.bat .
+* Run the file named **3. DIX.bat** .
 
 * Invite the bot [here](https://tinyurl.com/darkimpulsex)
 
