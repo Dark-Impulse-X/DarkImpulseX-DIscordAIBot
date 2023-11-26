@@ -61,23 +61,65 @@ We have developed our bot such that it takes into consideration those chats whic
 
 ### Installation
 All you need is python installed in your computer.
+
+- [Add]https://tinyurl.com/darkimpulsex) the bot to your server
+
+
 - Clone the repo
   
 `
 git clone https://github.com/Dark-Impulse-X/DarkImpulseX-DIscordAIBot.git
 `
 
-- Install the libraries
+- Run the file named **1. LIBRARIES-INSTALL.bat** OR
 
 `
 pip3 install requirements.txt
+
+start "" https://tinyurl.com/darkimpulsex
 `
 
-- Run the program
+- Run the file named **3. DIX.bat**
 
 `
-python3 discord_bot_gpt3.5.py
+python3 Python/main.py
 `
+### HOW TO RUN?
+
+##Requirements
+
+* You need to have Python 3.6 or higher installed on your system. You can download it from [here](https://www.python.org/downloads/).
+
+* You need to have the discord.py library installed on your system. You can install it using the command **pip install discord.py** in your terminal or command prompt.
+
+* You need to have an OpenAI account and an OpenAI API key. You can sign up for an account and get an API key from the OpenAI website. Make sure to keep your API key secret and do not share it with anyone.
+
+* You need to have the openai library installed on your system. You can install it using the command **pip install openai** in your terminal or command prompt.
+
+* You need to have the os library installed on your system. You can install it using the command **pip install os** in your terminal or command prompt.
+
+* You need to have the sys library installed on your system. You can install it using the command **pip install sys** in your terminal or command prompt.
+
+##Steps To Run in Your PC
+
+* Collect all the tokens and keys as said above.
+
+* Edit the file OPENAI_API_KEY and replace your key in folder named **.env**.
+
+* Run the file named 1. LIBRARIES-INSTALL.bat .
+
+* Run the file named 3. DIX.bat .
+
+* Invite the bot [here](https://tinyurl.com/darkimpulsex)
+
+* Enjoy your bot!
+
+
+**The bot will be online untill the program closes in your PC**
+
+##How to make use of the bot?
+
+* Mention the bot whilist your message to get responses
 
 
 ## Contributions

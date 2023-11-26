@@ -1,17 +1,17 @@
-'''                                                             PROJECT DARK IMPULSE X DISCORD BOT
+'''                                                        PROJECT DARK IMPULSE X DISCORD BOT
 
                                                            !!! DISCORD BOT IN YOUR SERVER !!!
 
                                                     Author and Patent @SadharanLadkaIsBack @the-coder-boy
 
-                                                              Github links of maintainers are below!!
+                                                         Github links of maintainers are below!!
 
                                                         https://www.github.com/SadharanLadkaIsBack
                                                            https://www.github.com/the-coder-boy
 
                                                            
-                                                               Official Discord Server!!!
-                                                             https://discord.gg/78ZUPjYFN4   
+                                                               ! Official Discord Server !
+                                                              https://discord.gg/78ZUPjYFN4   
 '''
 
 import discord  #the main discord python api client 
@@ -19,8 +19,8 @@ import os  # for controlling operations and gaining access to keys and other pro
 from openai import OpenAI   #for OpenAI API
 import sys      #for just logs     
 
-TOKEN = os.getenv("TOKEN")    #just for accessing token
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")      #for access to OpenAI API
+token = os.getenv("TOKEN")    #just for accessing token
+openai_api_key = os.getenv("OPENAI_API_KEY")      #for access to OpenAI API
 
 openClient = OpenAI(api_key = openai_api_key) # gaining access to openai
 
