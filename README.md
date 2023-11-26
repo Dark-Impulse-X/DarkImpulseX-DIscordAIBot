@@ -56,7 +56,7 @@ While using the OpenAI API, we have used a very cool prompt so to give our bot a
 ![Snippet](https://github.com/Dark-Impulse-X/DarkImpulseX-DIscordAIBot/assets/133076612/0cd59bc0-a886-4f01-a7de-7d61fc6e824e)
 
 
-We have developed our bot such that it takes into consideration those chats wih **/dix** in it.
+We have developed our bot such that it takes into consideration those chats which **mentions** the bot while chatting.
 
 
 ### Installation
