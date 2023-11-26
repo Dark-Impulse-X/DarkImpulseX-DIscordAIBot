@@ -86,7 +86,7 @@ python3 Python/main.py
 `
 ### HOW TO RUN?
 
-###Requirements
+**Requirements**
 
 * You need to have Python 3.6 or higher installed on your system. You can download it from [here](https://www.python.org/downloads/).
 
@@ -100,7 +100,7 @@ python3 Python/main.py
 
 * You need to have the sys library installed on your system. You can install it using the command **pip install sys** in your terminal or command prompt.
 
-###Steps To Run in Your PC
+**Steps To Run in Your PC**
 
 * Collect all the tokens and keys as said above.
 
@@ -115,9 +115,9 @@ python3 Python/main.py
 * Enjoy your bot!
 
 
-**The bot will be online untill the program closes in your PC**
+**THE BOT WILL BE ONLINE UNTILL YOU CLOSE main.py ON YOUR PC!!!**
 
-###How to make use of the bot?
+**How to make use of the bot?**
 
 * Mention the bot whilist your message to get responses
 
