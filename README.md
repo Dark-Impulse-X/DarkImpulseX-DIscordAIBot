@@ -44,9 +44,8 @@
 ## Documentation
 The discord bot is written in python. We have used AI, ML, NLP and LLM. Initially we are using OpenAI for first intialisation of our discord bot.
 ### Libraries Used 
-- OpenAI API
-- Disord
-- OS
+- openai
+- discord.py
 
 ### Code Explanation
 **Prompt Engineering** is very essential part to make a good AI chat application
@@ -62,7 +61,7 @@ We have developed our bot such that it takes into consideration those chats whic
 ### Installation
 All you need is python installed in your computer.
 
-- [Add]https://tinyurl.com/darkimpulsex) the bot to your server
+- [Add](https://tinyurl.com/darkimpulsex) the bot to your server
 
 
 - Clone the repo
@@ -71,55 +70,26 @@ All you need is python installed in your computer.
 git clone https://github.com/Dark-Impulse-X/DarkImpulseX-DIscordAIBot.git
 `
 
-- Run the file named **1. LIBRARIES-INSTALL.bat** OR
-
+- Install the libraries
 `
-pip3 install requirements.txt
-
-start "" https://tinyurl.com/darkimpulsex
-`
-
-- Run the file named **3. DIX.bat**
-
-`
-python3 Python/main.py
+pip install requirements.txt
 `
 ### HOW TO RUN?
 
-**Requirements**
+- Collect all the tokens and openai keys.
 
-* You need to have Python 3.6 or higher installed on your system. You can download it from [here](https://www.python.org/downloads/).
+- Make a .env file and make two variables TOKEN and OPENAI_API_KEY and store the value in it.
 
-* You need to have the discord.py library installed on your system. You can install it using the command **pip install discord.py** in your terminal or command prompt.
+- Invite the bot [here](https://tinyurl.com/darkimpulsex)
 
-* You need to have an OpenAI account and an OpenAI API key. You can sign up for an account and get an API key from the OpenAI website. Make sure to keep your API key secret and do not share it with anyone.
-
-* You need to have the openai library installed on your system. You can install it using the command **pip install openai** in your terminal or command prompt.
-
-* You need to have the os library installed on your system. You can install it using the command **pip install os** in your terminal or command prompt.
-
-* You need to have the sys library installed on your system. You can install it using the command **pip install sys** in your terminal or command prompt.
-
-**Steps To Run in Your PC**
-
-* Collect all the tokens and keys as said above.
-
-* Edit the file **OPENAI_API_KEY** and replace your key in folder named **.env**.
-
-* Run the file named **1. LIBRARIES-INSTALL.bat** .
-
-* Run the file named **3. DIX.bat** .
-
-* Invite the bot [here](https://tinyurl.com/darkimpulsex)
-
-* Enjoy your bot!
+- Enjoy your bot!
 
 
 **THE BOT WILL BE ONLINE UNTILL YOU CLOSE main.py ON YOUR PC!!!**
 
 **How to make use of the bot?**
 
-* Mention the bot whilist your message to get responses
+- Mention the bot whilist your message to get responses
 
 
 ## Contributions

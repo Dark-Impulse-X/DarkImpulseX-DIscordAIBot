@@ -14,18 +14,18 @@
                                                               https://discord.gg/78ZUPjYFN4   
 '''
 
-import discord  #the main discord python api client 
-import os  # for controlling operations and gaining access to keys and other protocols used to gain access and connection to discord and your server 
-from openai import OpenAI   #for OpenAI API
-import sys      #for just logs     
+import discord 
+import os  
+from openai import OpenAI  
+import sys     
 
-token = os.getenv("TOKEN")    #just for accessing token
-openai_api_key = os.getenv("OPENAI_API_KEY")      #for access to OpenAI API
+token = os.getenv("TOKEN")    
+openai_api_key = os.getenv("OPENAI_API_KEY")     
 
 openClient = OpenAI(api_key = openai_api_key) # gaining access to openai
 
-class MyClient(discord.Client):     #the main function of the bot 
-    prompt = [#the default prompts
+class MyClient(discord.Client):    
+    prompt = [
         "You are a helpful assistant and you are cool and a gigachad guy who knows everything..",
         "\nHuman: What time is it?",
         "\nAI: The time is 12:00. But you should not waste your time just asking these type stupid questions you ass",
