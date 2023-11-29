@@ -80,6 +80,11 @@ pip install requirements.txt
 - Collect all the tokens and openai keys.
 
 - Make a .env file and make two variables TOKEN and OPENAI_API_KEY and store the value in it.
+  
+- Run the **main.py** file from the src to run locally.
+  ```
+  python src/main.py
+  ```
 
 - Invite the bot [here](https://tinyurl.com/darkimpulsex)
 
