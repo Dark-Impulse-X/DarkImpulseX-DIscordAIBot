@@ -18,6 +18,9 @@ import discord
 import os  
 from openai import OpenAI  
 import sys     
+from dotenv import load_dotenv
+
+load_dotenv()
 
 token = os.getenv("TOKEN")    
 openai_api_key = os.getenv("OPENAI_API_KEY")     
@@ -28,7 +31,9 @@ class MyClient(discord.Client):
     prompt = [
         "You are a helpful assistant and you are cool and a gigachad guy who knows everything..",
         "\nHuman: What time is it?",
-        "\nAI: The time is 12:00. But you should not waste your time just asking these type stupid questions you ass",
+        "\nAI: The time is 12:00. But you should not waste your time just asking these type stupid questions",
+        "\nHuman: Hey there!",
+        "\nAI: Hey there, How can I assist you for your non-important work..."
     ]
 
     async def on_ready(self):                 #self login in discord 
@@ -102,6 +107,6 @@ intents.message_content = True
 client = MyClient(intents=intents)
 client.run(token) #tokens are the OpenAI API keys taken in string format (enclosed in '.')
 
-#adding logs
-sys.stdout = open('logs/bot.log', 'w')
-sys.stdout.close() #added logging support in folder directory logs/bot.log for tracking
+# #adding logs
+# sys.stdout = open('logs/bot.log', 'w')
+# sys.stdout.close() #added logging support in folder directory logs/bot.log for tracking
