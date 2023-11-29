@@ -1,6 +1,7 @@
-# DarkImpulseX-DiscordAIBot
-
 <div align="center">
+
+<h1>● DarkImpulseX-DiscordAIBot</h1>
+</br>
   
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com/?lines=The,+Ultimate!;+Discord Companion&font=Fira%20Code&center=true&width=380&height=50&duration=4000&pause=1000" alt="Example Usage - README Typing SVG">
@@ -66,14 +67,14 @@ All you need is python installed in your computer.
 
 - Clone the repo
   
-`
+``` shell
 git clone https://github.com/Dark-Impulse-X/DarkImpulseX-DIscordAIBot.git
-`
+```
 
 - Install the libraries
-`
+```
 pip install requirements.txt
-`
+```
 ### HOW TO RUN?
 
 - Collect all the tokens and openai keys.
@@ -96,4 +97,4 @@ pip install requirements.txt
 Contributions are accepted. Read the contribution guidelines before contributing and follow the rules properly.
 
 ## License
-MIT License
+DarkImpulseX-DiscordAIBot is licensed under the MIT License. You are permitted to use, copy, modify, distribute, sublicense, and sell copies of the software.
