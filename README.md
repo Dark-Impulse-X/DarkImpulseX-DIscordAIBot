@@ -50,11 +50,11 @@ It is end-to-end trained to work in your server. It uses our language model as w
   - [x] Responds to users query using openai 😎
   - [x] Greets if anyone joins your discord channel with a *joke* 😂
   - [x] Joins and leaves voice channel 📣
-  - [] Play, stop, resume, previous and next music playing
-  - [] Image generation
-  - [] List commands
-  - [] Discord Management
-  - [] and more.......
+  - [ ] Play, stop, resume, previous and next music playing
+  - [ ] Image generation
+  - [ ] List commands
+  - [ ] Discord Management
+  - [ ] and more.......
 
 ### Libraries Used 
 - openai
