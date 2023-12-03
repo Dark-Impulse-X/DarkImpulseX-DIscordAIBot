@@ -43,17 +43,58 @@
 </br></br>
 
 ## Documentation
-The discord bot is written in python. We have used AI, ML, NLP and LLM. Initially we are using OpenAI for first intialisation of our discord bot.
+DarkImpulseX-DiscordAIBot is a versatile discord bot. 
+It is end-to-end trained to work in your server. It uses our language model as well as openai. Also it can use NLP to understand the language with which users are interacting.
+
+- **Features**
+  - [x] Responds to users query using openai 😎
+  - [x] Greets if anyone joins your discord channel with a *joke* 😂
+  - [x] Joins and leaves voice channel 📣
+
 ### Libraries Used 
 - openai
 - discord.py
+- discord.py[voice] *pip install discord.py[voice]*
+- requests
 
 ### Code Explanation
+- **Prompt Engineering**
 **Prompt Engineering** is very essential part to make a good AI chat application
 
 While using the OpenAI API, we have used a very cool prompt so to give our bot a particular behaviour. See the code example below where we have told hpw the bot would behave and how it should give answers- 
 
 ![Snippet](https://github.com/Dark-Impulse-X/DarkImpulseX-DIscordAIBot/assets/133076612/0cd59bc0-a886-4f01-a7de-7d61fc6e824e)
+
+
+- **Greeting User**
+The bot checks the default text channel using the below code
+```
+guild.text_channels[0]
+```
+*a "member" represents a user within the context of a specific server (guild)*
+*A "guild" is Discord's term for a server. It represents a collection of channels, roles, and members on Discord.*
+
+The bot greets the user by making requests to [jokeapi](https://v2.jokeapi.dev/) - we appreciate it a lot.
+
+- **Joins and leaves voice channel** 
+*uses python discord.py[voice]*
+  - command to join - *join*
+  We get the voice channel that user has joined with this code :- 
+  ```
+  channel = message.author.voice.channel
+  ```
+  and stores the channel in `self.voiceChannel`.
+
+  - command to leave - *leave*
+  Leaves the channel on user command by using the same code above to get the channel
+
+  - leaves automatically
+  checks the number of users using the code
+  ```
+  len(self.voiceChannel.channel.members) == 1
+  ```
+  then, disconnects after waiting for *1 minute*
+
 
 
 We have developed our bot such that it takes into consideration those chats which **mentions** the bot while chatting.
@@ -75,7 +116,13 @@ git clone https://github.com/Dark-Impulse-X/DarkImpulseX-DIscordAIBot.git
 ```
 pip install requirements.txt
 ```
-### HOW TO RUN?
+
+- Extra installation
+```
+pip install discord.py[voice]
+```
+
+### How To Run?
 
 - Collect all the tokens and openai keys.
 
