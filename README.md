@@ -64,7 +64,7 @@ It is end-to-end trained to work in your server. It uses our language model as w
 
 ### Code Explanation
 - **Prompt Engineering**
-**** is very essential part to make a good AI chat application
+ is very essential part to make a good AI chat application
 
 While using the OpenAI API, we have used a very cool prompt so to give our bot a particular behaviour. See the code example below where we have told hpw the bot would behave and how it should give answers- 
 
